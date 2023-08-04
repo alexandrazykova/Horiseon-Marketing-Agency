@@ -1,13 +1,16 @@
+/* Applies style to all elements at once */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Style for the body of the page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Style for the header of the page */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +27,7 @@ body {
     color: #d9dcd6;
 }
 
-/*Replaced div with semantic nav*/
+/* Replaced div with semantic nav. Styles navigation bar */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,26 +36,29 @@ body {
     font-size: 20px;
 }
 
-/*Replaced div with semantic nav*/
+/* Replaced div with semantic nav */
 .header nav ul {
     list-style-type: none;
 }
 
-/*Replaced div with semantic nav*/
+/* Replaced div with semantic nav */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Styles anchor links in navigation bar */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Style paragraphs of the page */
 p {
     font-size: 16px;
 }
 
+/* Style hero section of the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,6 +68,7 @@ p {
     background-position: center;
 }
 
+/* Style for float section */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -72,6 +79,7 @@ p {
     margin-left: 25px;
 }
 
+/* Style main content of the page */
 .content {
     width: 75%;
     display: inline-block;
@@ -89,72 +97,34 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Combined repeated selectors */
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* Combined repeated selectors */
+.benefit-lead h3,
+.benefit-brand h3, 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* Combined repeated selectors */
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/* Style for service sections. Combined repeated selectors */
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -164,33 +134,22 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+/* Style img. Combined repeated selectors */
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Style h2 elements. Combined repeated selectors */
+.search-engine-optimization h2,
+.online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Style footer section of the page */
 .footer {
     padding: 30px;
     clear: both;
