@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-/*Replaced div with nav*/
+/*Replaced div with semantic nav*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,12 +33,12 @@ body {
     font-size: 20px;
 }
 
-/*Replaced div with nav*/
+/*Replaced div with semantic nav*/
 .header nav ul {
     list-style-type: none;
 }
 
-/*Replaced div with nav*/
+/*Replaced div with semantic nav*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
